@@ -1,0 +1,56 @@
+/* ============================================================
+   REIGN FONTS
+   Type system for Reign / Christaphur projects
+   github.com/christaphur/reign-fonts
+   ============================================================ */
+
+/* Google Fonts Import */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;700&family=DM+Serif+Display&family=IBM+Plex+Mono:wght@400;500&display=swap');
+
+/* ============================================================
+   CUSTOM PROPERTIES
+   Reference these variables across any Reign HTML file.
+   ============================================================ */
+
+:root {
+
+  /* Display / Identity
+     Condensed all-caps. Headers, numerals, section titles.
+     Use large. Use bold. */
+  --font-display: 'Bebas Neue', sans-serif;
+
+  /* Serif / Editorial
+     Heads, pull quotes, editorial emphasis.
+     Italic is where this font lives. */
+  --font-serif: 'DM Serif Display', serif;
+
+  /* Mono / Identity
+     Section labels, eyebrows, identity-level type.
+     The "voice" of the brand in monospace. */
+  --font-mono-identity: 'IBM Plex Mono', monospace;
+
+  /* Mono / Utility
+     Metadata, tags, hex codes, data.
+     Lighter touch than IBM Plex Mono. */
+  --font-mono-utility: 'DM Mono', monospace;
+
+  /* Sans / Body
+     Prose, UI copy, captions.
+     Default for anything that needs to be read at length. */
+  --font-body: 'DM Sans', sans-serif;
+
+}
+
+/* ============================================================
+   USAGE REFERENCE
+
+   --font-display          Bebas Neue       Display, headers, numerals
+   --font-serif            DM Serif Display Editorial, pull quotes
+   --font-mono-identity    IBM Plex Mono    Labels, eyebrows, identity
+   --font-mono-utility     DM Mono          Tags, metadata, data
+   --font-body             DM Sans          Body text, UI, captions
+
+   Example:
+   h1 { font-family: var(--font-display); }
+   p  { font-family: var(--font-body); }
+   ============================================================ */
