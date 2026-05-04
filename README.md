@@ -1,8 +1,9 @@
 # reign-fonts
 
-The type system behind [Reign](https://christaphur.com) — a design and consulting practice at the intersection of operations and brand.
+The type system behind [Reign](https://christaphur.com) 
+"a design and consulting practice at the intersection of operations and branding."
 
-This is an open library. If it helps you build something, use it.
+This is an open library. If it helps you innovate, use it.
 
 ---
 
@@ -70,6 +71,6 @@ The Reign color system pairs with this type system. Hex values for reference:
 
 ## About
 
-Reign is a solo consulting practice founded by Christopher Nwalupue, focused on climbing gym operations and brand systems.
+Reign is a solo consulting practice founded by Christopher Nwalupue, focused on business operations and brand systems.
 
 [christaphur.com](https://christaphur.com) · [@christaphur](https://instagram.com/christaphur)
